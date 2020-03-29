@@ -60,9 +60,17 @@ export default class Layout extends React.Component {
         id="page-top">
         <Header/>
         <main>{this.props.children}</main>
-        <footer className="bg-light py-5">
+        <footer className="bg-dark py-5">
+          <div class='container'>
+          <div className=" text-center ">
+            Website created by - <a href="https://github.com/dilanbopanna" >Bopanna M J</a>
+            </div>
+          </div>
+          <div class='container' style={{width:'30%'}}>
+            <hr/>
+          </div>
           <div className="container">
-            <div className="small text-center text-muted">Copyright &copy; 2019 - Start Bootstrap</div>
+            <div className="small text-center text-muted">Copyright &copy; 2020 - Insignia</div>
           </div>
         </footer>
       </div>

@@ -30,3 +30,52 @@ header.masthead {
 		}
 	}
 }
+.male-avatar {
+	height: 8em;
+}
+.mb-lg-0 {
+	padding-bottom: 50px;
+}
+.fab:hover {
+transform: translateY(-3px);
+transition: all 0.1s ease-in;
+}
+#events {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+@media screen and (max-width: 500px) {
+	#events {
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+  }
+.card card-cascade  {
+	padding-bottom: 20px;
+}
+.card-body {
+	background-color: $primary;
+	color: white;
+}
+.social-links {
+	padding-top: 40px;
+}
+.social-links i{
+	font-size: 35px;
+	color: rgb(255, 255, 255);
+}
+.social-links i:hover{
+	transform: translateY(-5px);
+transition: all 0.2s ease-in;
+color: $primary;
+}
+.bg-dark {
+	color: rgb(218, 213, 213);
+}
+.bg-dark a:hover {
+	text-decoration:none ;
+	font-weight: bolder;
+}
+.bg-dark hr {
+	background: rgb(177, 174, 174);
+}
