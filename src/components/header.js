@@ -58,13 +58,13 @@ export default class Header extends React.Component {
                 <a className="btn btn-primary btn-xl js-scroll-trigger" href="#about" onClick={Scroller.handleAnchorScroll}>Find Out More</a>
                 <div class='social-links'>
                   
-<a class="btn-floating btn-lg btn-fb" href="https://www.facebook.com/"type="button" role="button"><i class="fab fa-facebook-f"></i></a>
+<a class="btn-floating btn-lg btn-fb" href="https://www.facebook.com/" ><i class="fab fa-facebook-f"></i></a>
 
-<a class="btn-floating btn-lg btn-tw" href="https://www.twitter.com/"type="button" role="button"><i class="fab fa-twitter"></i></a>
+<a class="btn-floating btn-lg btn-tw" href="https://www.twitter.com/" ><i class="fab fa-twitter"></i></a>
 
-<a class="btn-floating btn-lg btn-ins" href="https://www.instagram.com/"type="button" role="button"><i class="fab fa-instagram"></i></a>
+<a class="btn-floating btn-lg btn-ins" href="https://www.instagram.com/" ><i class="fab fa-instagram"></i></a>
 
-<a class="btn-floating btn-lg btn-li" href="https://www.linkedin.com/"type="button" role="button"><i class="fab fa-linkedin-in"></i></a>
+<a class="btn-floating btn-lg btn-li" href="https://www.linkedin.com/" ><i class="fab fa-linkedin-in"></i></a>
                 </div>
               </div>
             </div>
